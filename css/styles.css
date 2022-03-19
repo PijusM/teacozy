@@ -131,6 +131,7 @@ header ul li{
 /*Contact*/
 /*Footer*/
 footer p{
+    font-size: 15px;
     margin: 20px;
     float: left;
 }
