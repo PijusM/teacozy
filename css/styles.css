@@ -1,0 +1,137 @@
+
+html{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+/*Header*/
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+}
+header img{
+    height: 50px;
+}
+header ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+header ul li{
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+    text-align: center;
+    right: 0;
+    margin: 0px 10px 0px 10px;
+    
+}
+/*Header*/
+/*Content*/
+/*Mission*/
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+.text{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    font-size: 22px;
+}
+
+.text h2, .text h4{
+    margin: 10px 0px 10px 0px;
+}
+.text h2{
+    margin-bottom: 15px;;
+}
+/*Mission*/
+/*Tea Of the month*/
+.teaofthemonth{
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.square img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.square p{
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+/*Tea Of the month*/
+/*Locations*/
+.locations{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    width: 1200px;
+    margin: 50px auto 0 auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+.locations h1{
+    margin: 0px 0px 15px 0px;
+}
+
+.containerloc{
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   
+}
+
+.locsquare{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+/*Locations*/
+/*Contact*/
+.contact{
+    height: 200px;
+    margin: 0 auto;
+}
+/*Contact*/
+/*Footer*/
+footer p{
+    margin: 20px;
+    float: left;
+}
+/*Footer*/
