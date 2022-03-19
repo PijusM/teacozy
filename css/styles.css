@@ -22,14 +22,17 @@ header{
     justify-content: space-between;
 }
 header img{
+    z-index: 1;
     height: 50px;
 }
 header ul{
+    z-index: 1;
     display: flex;
     flex-wrap: nowrap;
     flex-shrink: 1;
 }
 header ul li{
+    z-index: 1;
     position: relative;
     display: inline-block;
     text-decoration: underline;
@@ -39,6 +42,7 @@ header ul li{
     
 }
 header a{
+    z-index: 1;
     color: seashell;
 }
 header a:hover{
