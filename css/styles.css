@@ -12,6 +12,7 @@ header{
     display: flex;
     position: fixed;
     top: 0;
+    flex-shrink: 1;
     border-bottom: 1px solid seashell;
     height: 69px;
     width: 100%;
@@ -131,8 +132,10 @@ header ul li{
 /*Contact*/
 /*Footer*/
 footer p{
+    position: relative;
     font-size: 15px;
     margin: 20px;
     float: left;
+    bottom: 0;
 }
 /*Footer*/
